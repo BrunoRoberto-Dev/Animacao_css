@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Parabéns</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+        }
+        h1{
+            color: white;
+            font-family: Aria, Helvetica, sans-serif;
+            text-transform: uppercase;
+            overflow: hidden;
+            background: linear-gradient(90deg, #000, #fff, #000);
+            background-repeat: no-repeat;
+            background-size: 50%;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            animation: anim 3s linear infinite;
+        }    
+        @keyframes anim{
+            0%{
+                background-position: -300%;
+                }
+            50%{
+                background-position: 300%;
+            }
+            100%{
+                background-position: -300%;
+            }
+        }
+            
+    </style>
+</head>
+<body>
+    <h1>Parabéns para nós</h1>
+</body>
+</html>
